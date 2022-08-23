@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 //make route to shopping list and put json file in it
 
 app.get('/shoppinglist', (req, res) => {
-    res.send(data)
+    res.send(data.lists)
 })
 // fs.readFile('./data.json')
 
